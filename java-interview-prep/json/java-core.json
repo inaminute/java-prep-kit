@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-001",
+    "title": "Explain the difference between == and equals() in Java",
+    "description": "Describe when to use == versus equals() method for comparing objects in Java, including primitives and reference types.",
+    "hints": ["Think about memory addresses", "Consider String comparison"],
+    "tags": ["operators", "object-comparison", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-002",
+    "title": "What is the difference between String, StringBuilder, and StringBuffer?",
+    "description": "Compare and contrast String, StringBuilder, and StringBuffer classes in terms of mutability, thread-safety, and performance.",
+    "hints": ["Consider immutability", "Think about thread safety"],
+    "tags": ["strings", "immutability", "concurrency"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-003",
+    "title": "Explain method overloading vs method overriding",
+    "description": "Describe the differences between method overloading and method overriding with examples of when to use each.",
+    "hints": ["Compile-time vs runtime", "Same class vs inheritance"],
+    "tags": ["oop", "polymorphism", "inheritance"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-004",
+    "title": "What are the access modifiers in Java?",
+    "description": "List and explain all access modifiers in Java (public, private, protected, default) and their visibility scope.",
+    "hints": ["Four levels of access", "Package visibility"],
+    "tags": ["access-modifiers", "encapsulation", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-005",
+    "title": "Explain the final keyword in Java",
+    "description": "Describe how the final keyword works when applied to variables, methods, and classes.",
+    "hints": ["Immutability for variables", "Inheritance restrictions"],
+    "tags": ["keywords", "immutability", "inheritance"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-006",
+    "title": "What is autoboxing and unboxing?",
+    "description": "Explain the automatic conversion between primitive types and their corresponding wrapper classes in Java.",
+    "hints": ["Wrapper classes", "Automatic conversion"],
+    "tags": ["primitives", "wrapper-classes", "type-conversion"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-007",
+    "title": "Difference between ArrayList and LinkedList",
+    "description": "Compare ArrayList and LinkedList in terms of internal structure, performance characteristics, and use cases.",
+    "hints": ["Array vs nodes", "Random access vs sequential"],
+    "tags": ["collections", "data-structures", "performance"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-008",
+    "title": "What is the purpose of the static keyword?",
+    "description": "Explain how static works for variables, methods, blocks, and nested classes in Java.",
+    "hints": ["Class-level vs instance-level", "Memory allocation"],
+    "tags": ["keywords", "static", "memory-management"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-009",
+    "title": "Explain checked vs unchecked exceptions",
+    "description": "Describe the difference between checked and unchecked exceptions, with examples of each type.",
+    "hints": ["Compile-time vs runtime", "Exception hierarchy"],
+    "tags": ["exceptions", "error-handling", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "easy",
+    "id": "jc-e-010",
+    "title": "What is the difference between abstract class and interface?",
+    "description": "Compare abstract classes and interfaces in Java, including when to use each and their key differences.",
+    "hints": ["Multiple inheritance", "Default implementations"],
+    "tags": ["oop", "abstraction", "interfaces"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-001",
+    "title": "Implement a custom immutable class",
+    "description": "Design and implement a fully immutable class in Java following best practices, including handling mutable fields.",
+    "hints": ["Final class and fields", "Defensive copying", "No setters"],
+    "tags": ["immutability", "design", "best-practices"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-002",
+    "title": "Explain the contract between equals() and hashCode()",
+    "description": "Describe the relationship between equals() and hashCode() methods and why they must be overridden together.",
+    "hints": ["Hash-based collections", "Contract rules"],
+    "tags": ["object-methods", "collections", "contracts"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-003",
+    "title": "How does HashMap work internally?",
+    "description": "Explain the internal implementation of HashMap including hashing, collision handling, and resizing mechanism.",
+    "hints": ["Buckets and nodes", "Load factor", "Tree conversion"],
+    "tags": ["collections", "hashmap", "data-structures"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-004",
+    "title": "Implement a singleton pattern with thread safety",
+    "description": "Create a thread-safe singleton implementation using different approaches (eager, lazy, double-checked locking, enum).",
+    "hints": ["Double-checked locking", "Volatile keyword", "Enum approach"],
+    "tags": ["design-patterns", "singleton", "thread-safety"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-005",
+    "title": "Explain Java memory model and garbage collection",
+    "description": "Describe the Java memory structure (heap, stack, metaspace) and how garbage collection works.",
+    "hints": ["Heap vs stack", "GC algorithms", "Generational collection"],
+    "tags": ["memory-management", "gc", "jvm"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-006",
+    "title": "What are generics and type erasure?",
+    "description": "Explain Java generics, type parameters, bounded types, and the concept of type erasure at runtime.",
+    "hints": ["Type safety", "Runtime erasure", "Bounded wildcards"],
+    "tags": ["generics", "type-system", "compile-time"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-007",
+    "title": "Implement a custom exception hierarchy",
+    "description": "Design a custom exception hierarchy for a specific domain with proper use of checked and unchecked exceptions.",
+    "hints": ["Extend appropriate base class", "Meaningful names", "Context information"],
+    "tags": ["exceptions", "design", "error-handling"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-008",
+    "title": "Explain the Comparable vs Comparator interfaces",
+    "description": "Compare Comparable and Comparator interfaces, when to use each, and implement custom sorting logic.",
+    "hints": ["Natural ordering", "External comparison", "Multiple sort orders"],
+    "tags": ["interfaces", "sorting", "collections"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-009",
+    "title": "What is reflection and when should you use it?",
+    "description": "Explain Java reflection API, its capabilities, use cases, and performance implications.",
+    "hints": ["Runtime inspection", "Framework usage", "Performance cost"],
+    "tags": ["reflection", "metaprogramming", "advanced"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "medium",
+    "id": "jc-m-010",
+    "title": "Implement a deep copy mechanism",
+    "description": "Create a mechanism to perform deep copy of objects including nested objects and collections.",
+    "hints": ["Cloneable interface", "Serialization", "Copy constructors"],
+    "tags": ["cloning", "object-copying", "design"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-001",
+    "title": "Design a custom class loader",
+    "description": "Implement a custom ClassLoader that can load classes from non-standard sources with proper delegation.",
+    "hints": ["ClassLoader hierarchy", "Parent delegation", "defineClass method"],
+    "tags": ["classloading", "jvm", "advanced"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-002",
+    "title": "Implement a thread-safe LRU cache",
+    "description": "Design and implement a Least Recently Used (LRU) cache with O(1) operations that is thread-safe.",
+    "hints": ["LinkedHashMap", "Concurrent access", "Lock strategies"],
+    "tags": ["caching", "data-structures", "concurrency"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-003",
+    "title": "Explain JVM internals and bytecode",
+    "description": "Describe how the JVM executes bytecode, including class loading, verification, JIT compilation, and optimization.",
+    "hints": ["Bytecode instructions", "JIT compiler", "Hotspot optimization"],
+    "tags": ["jvm", "bytecode", "performance"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-004",
+    "title": "Implement a custom annotation processor",
+    "description": "Create a compile-time annotation processor that generates code or validates annotations.",
+    "hints": ["Annotation processing API", "Code generation", "Compile-time validation"],
+    "tags": ["annotations", "metaprogramming", "code-generation"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-005",
+    "title": "Design a type-safe heterogeneous container",
+    "description": "Implement a container that can hold different types safely using generics and type tokens.",
+    "hints": ["Class as type token", "Type safety", "Generic methods"],
+    "tags": ["generics", "type-safety", "design-patterns"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-006",
+    "title": "Explain weak, soft, and phantom references",
+    "description": "Describe the different types of references in Java and their use cases for memory-sensitive caching.",
+    "hints": ["Reference types", "GC behavior", "Memory management"],
+    "tags": ["memory-management", "gc", "references"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-007",
+    "title": "Implement a custom serialization mechanism",
+    "description": "Create a custom serialization framework that handles circular references and version compatibility.",
+    "hints": ["Object graphs", "Circular references", "Versioning"],
+    "tags": ["serialization", "design", "advanced"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-008",
+    "title": "Design a dynamic proxy with method interception",
+    "description": "Implement a dynamic proxy using Java's Proxy class or CGLIB that intercepts method calls for AOP-like behavior.",
+    "hints": ["InvocationHandler", "Proxy.newProxyInstance", "Method interception"],
+    "tags": ["proxy", "aop", "reflection"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-009",
+    "title": "Explain happens-before relationship and memory visibility",
+    "description": "Describe the Java Memory Model's happens-before guarantees and how they ensure memory visibility across threads.",
+    "hints": ["Memory barriers", "Volatile semantics", "Synchronization"],
+    "tags": ["concurrency", "memory-model", "jvm"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java Core Concepts",
+    "difficulty": "hard",
+    "id": "jc-h-010",
+    "title": "Implement a custom concurrent collection",
+    "description": "Design a thread-safe collection with fine-grained locking or lock-free algorithms for high concurrency.",
+    "hints": ["Lock striping", "CAS operations", "Concurrent algorithms"],
+    "tags": ["concurrency", "collections", "lock-free"],
+    "expectedTimeMinutes": 35
+  }
+]

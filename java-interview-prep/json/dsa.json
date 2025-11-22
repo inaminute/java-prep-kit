@@ -1,0 +1,302 @@
+[
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-001",
+    "title": "Two Sum",
+    "description": "Given an array of integers and a target sum, return indices of two numbers that add up to the target.",
+    "hints": ["Use a HashMap to store complements", "Single pass solution exists"],
+    "tags": ["arrays", "hash-table", "two-pointers"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-002",
+    "title": "Valid Parentheses",
+    "description": "Determine if a string containing only parentheses characters '(', ')', '{', '}', '[', ']' is valid.",
+    "hints": ["Use a stack", "Match opening with closing brackets"],
+    "tags": ["stack", "string", "validation"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-003",
+    "title": "Reverse a Linked List",
+    "description": "Reverse a singly linked list iteratively or recursively.",
+    "hints": ["Track previous, current, and next nodes", "Recursive approach uses call stack"],
+    "tags": ["linked-list", "pointers", "recursion"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-004",
+    "title": "Maximum Subarray Sum",
+    "description": "Find the contiguous subarray with the largest sum using Kadane's algorithm.",
+    "hints": ["Track current and maximum sum", "Reset when sum becomes negative"],
+    "tags": ["arrays", "dynamic-programming", "kadane"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-005",
+    "title": "Binary Search",
+    "description": "Implement binary search on a sorted array to find the index of a target element.",
+    "hints": ["Divide and conquer", "Watch for integer overflow in mid calculation"],
+    "tags": ["arrays", "binary-search", "divide-conquer"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-006",
+    "title": "Merge Two Sorted Lists",
+    "description": "Merge two sorted linked lists into one sorted linked list.",
+    "hints": ["Use a dummy node", "Compare values and advance pointers"],
+    "tags": ["linked-list", "merge", "two-pointers"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-007",
+    "title": "Contains Duplicate",
+    "description": "Determine if an array contains any duplicate elements.",
+    "hints": ["Use a HashSet", "Sort and check adjacent elements"],
+    "tags": ["arrays", "hash-table", "sorting"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-008",
+    "title": "Valid Anagram",
+    "description": "Check if two strings are anagrams of each other.",
+    "hints": ["Count character frequencies", "Sort both strings"],
+    "tags": ["string", "hash-table", "sorting"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-009",
+    "title": "Climbing Stairs",
+    "description": "Calculate the number of distinct ways to climb n stairs when you can take 1 or 2 steps at a time.",
+    "hints": ["Fibonacci pattern", "Dynamic programming or recursion with memoization"],
+    "tags": ["dynamic-programming", "recursion", "fibonacci"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "easy",
+    "id": "dsa-e-010",
+    "title": "Palindrome Number",
+    "description": "Determine if an integer is a palindrome without converting it to a string.",
+    "hints": ["Reverse the number", "Compare with original"],
+    "tags": ["math", "palindrome", "numbers"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-001",
+    "title": "Longest Substring Without Repeating Characters",
+    "description": "Find the length of the longest substring without repeating characters using sliding window technique.",
+    "hints": ["Sliding window with HashSet", "Track window start and end"],
+    "tags": ["string", "sliding-window", "hash-table"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-002",
+    "title": "3Sum",
+    "description": "Find all unique triplets in an array that sum to zero.",
+    "hints": ["Sort first", "Use two pointers after fixing one element"],
+    "tags": ["arrays", "two-pointers", "sorting"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-003",
+    "title": "Group Anagrams",
+    "description": "Group strings that are anagrams of each other from a list of strings.",
+    "hints": ["Use sorted string as key", "HashMap with list values"],
+    "tags": ["string", "hash-table", "sorting"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-004",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Return the level order traversal of a binary tree's nodes (level by level, left to right).",
+    "hints": ["Use a queue for BFS", "Track level boundaries"],
+    "tags": ["tree", "bfs", "queue"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-005",
+    "title": "Validate Binary Search Tree",
+    "description": "Determine if a binary tree is a valid binary search tree.",
+    "hints": ["Track min and max bounds", "In-order traversal should be sorted"],
+    "tags": ["tree", "bst", "recursion"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-006",
+    "title": "Kth Largest Element in Array",
+    "description": "Find the kth largest element in an unsorted array using quickselect or heap.",
+    "hints": ["Min heap of size k", "Quickselect algorithm"],
+    "tags": ["arrays", "heap", "quickselect"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-007",
+    "title": "Course Schedule",
+    "description": "Determine if you can finish all courses given prerequisites (detect cycle in directed graph).",
+    "hints": ["Topological sort", "DFS with visited states"],
+    "tags": ["graph", "dfs", "topological-sort"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-008",
+    "title": "Lowest Common Ancestor of Binary Tree",
+    "description": "Find the lowest common ancestor of two nodes in a binary tree.",
+    "hints": ["Recursive approach", "Check if nodes are in left or right subtree"],
+    "tags": ["tree", "recursion", "lca"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-009",
+    "title": "Product of Array Except Self",
+    "description": "Return an array where each element is the product of all elements except itself, without using division.",
+    "hints": ["Left and right product arrays", "Optimize to O(1) space"],
+    "tags": ["arrays", "prefix-sum", "optimization"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "medium",
+    "id": "dsa-m-010",
+    "title": "Rotting Oranges",
+    "description": "Find minimum time for all fresh oranges to rot using multi-source BFS on a grid.",
+    "hints": ["Multi-source BFS", "Track time with queue"],
+    "tags": ["graph", "bfs", "matrix"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-001",
+    "title": "Serialize and Deserialize Binary Tree",
+    "description": "Design an algorithm to serialize a binary tree to a string and deserialize it back to the tree structure.",
+    "hints": ["Pre-order or level-order traversal", "Use null markers"],
+    "tags": ["tree", "serialization", "design"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-002",
+    "title": "Median of Two Sorted Arrays",
+    "description": "Find the median of two sorted arrays in O(log(min(m,n))) time using binary search.",
+    "hints": ["Binary search on smaller array", "Partition both arrays"],
+    "tags": ["arrays", "binary-search", "divide-conquer"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-003",
+    "title": "Trapping Rain Water",
+    "description": "Calculate how much water can be trapped after raining given an elevation map.",
+    "hints": ["Two pointers from both ends", "Track max heights"],
+    "tags": ["arrays", "two-pointers", "stack"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-004",
+    "title": "Word Ladder",
+    "description": "Find the shortest transformation sequence from beginWord to endWord using a word list (BFS).",
+    "hints": ["BFS with word transformations", "Build adjacency graph"],
+    "tags": ["graph", "bfs", "string"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-005",
+    "title": "Longest Increasing Path in Matrix",
+    "description": "Find the length of the longest increasing path in a matrix using DFS with memoization.",
+    "hints": ["DFS from each cell", "Memoize results"],
+    "tags": ["matrix", "dfs", "memoization"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-006",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*' using dynamic programming.",
+    "hints": ["2D DP table", "Handle * matching zero or more"],
+    "tags": ["string", "dynamic-programming", "recursion"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-007",
+    "title": "Merge K Sorted Lists",
+    "description": "Merge k sorted linked lists into one sorted linked list using a min heap.",
+    "hints": ["Min heap of size k", "Compare heads of all lists"],
+    "tags": ["linked-list", "heap", "merge"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-008",
+    "title": "Alien Dictionary",
+    "description": "Derive the order of characters in an alien language from a sorted dictionary using topological sort.",
+    "hints": ["Build graph from adjacent words", "Topological sort"],
+    "tags": ["graph", "topological-sort", "string"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-009",
+    "title": "Sliding Window Maximum",
+    "description": "Find the maximum element in each sliding window of size k using a deque.",
+    "hints": ["Monotonic decreasing deque", "Remove out-of-window elements"],
+    "tags": ["arrays", "sliding-window", "deque"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "DSA Coding",
+    "difficulty": "hard",
+    "id": "dsa-h-010",
+    "title": "Edit Distance",
+    "description": "Find the minimum number of operations to convert one string to another using dynamic programming.",
+    "hints": ["2D DP table", "Three operations: insert, delete, replace"],
+    "tags": ["string", "dynamic-programming", "edit-distance"],
+    "expectedTimeMinutes": 30
+  }
+]

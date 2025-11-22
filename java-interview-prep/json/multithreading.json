@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-001",
+    "title": "Explain the difference between Thread and Runnable",
+    "description": "Describe the differences between extending Thread class and implementing Runnable interface, including when to use each approach.",
+    "hints": ["Consider inheritance limitations", "Think about separation of concerns"],
+    "tags": ["thread", "runnable", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-002",
+    "title": "What is thread synchronization?",
+    "description": "Explain the concept of thread synchronization in Java and why it's necessary for concurrent programming.",
+    "hints": ["Race conditions", "Shared resources"],
+    "tags": ["synchronization", "race-condition", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-003",
+    "title": "Explain the synchronized keyword",
+    "description": "Describe how the synchronized keyword works for methods and blocks, including its impact on thread execution.",
+    "hints": ["Monitor locks", "Method vs block synchronization"],
+    "tags": ["synchronized", "locks", "mutual-exclusion"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-004",
+    "title": "What are thread states in Java?",
+    "description": "List and explain all thread states (NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED) and transitions between them.",
+    "hints": ["Thread lifecycle", "State transitions"],
+    "tags": ["thread-states", "lifecycle", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-005",
+    "title": "Explain wait(), notify(), and notifyAll()",
+    "description": "Describe the purpose and usage of wait(), notify(), and notifyAll() methods for inter-thread communication.",
+    "hints": ["Object class methods", "Must be called within synchronized context"],
+    "tags": ["wait-notify", "inter-thread-communication", "object-methods"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-006",
+    "title": "What is the volatile keyword?",
+    "description": "Explain how the volatile keyword ensures visibility of variable changes across threads.",
+    "hints": ["Memory visibility", "No caching in thread-local memory"],
+    "tags": ["volatile", "memory-visibility", "keywords"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-007",
+    "title": "Difference between sleep() and wait()",
+    "description": "Compare Thread.sleep() and Object.wait() methods in terms of lock release and usage context.",
+    "hints": ["Lock retention", "Static vs instance method"],
+    "tags": ["sleep", "wait", "thread-control"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-008",
+    "title": "What is a daemon thread?",
+    "description": "Explain daemon threads, how they differ from user threads, and when to use them.",
+    "hints": ["Background tasks", "JVM shutdown behavior"],
+    "tags": ["daemon-thread", "thread-types", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-009",
+    "title": "Explain thread priority",
+    "description": "Describe how thread priorities work in Java and their impact on thread scheduling.",
+    "hints": ["MIN_PRIORITY, NORM_PRIORITY, MAX_PRIORITY", "Platform-dependent"],
+    "tags": ["thread-priority", "scheduling", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "easy",
+    "id": "mt-e-010",
+    "title": "What is the join() method?",
+    "description": "Explain the purpose of Thread.join() and how it's used to wait for thread completion.",
+    "hints": ["Thread coordination", "Blocking operation"],
+    "tags": ["join", "thread-coordination", "synchronization"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-001",
+    "title": "Implement a thread-safe singleton using double-checked locking",
+    "description": "Create a thread-safe singleton pattern using double-checked locking with proper use of volatile keyword.",
+    "hints": ["Volatile for visibility", "Two null checks", "Synchronize only on first creation"],
+    "tags": ["singleton", "double-checked-locking", "volatile"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-002",
+    "title": "Explain deadlock and how to prevent it",
+    "description": "Describe what causes deadlock in multithreaded programs and strategies to prevent or detect it.",
+    "hints": ["Circular wait", "Lock ordering", "Timeout mechanisms"],
+    "tags": ["deadlock", "prevention", "concurrency-issues"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-003",
+    "title": "Implement Producer-Consumer pattern",
+    "description": "Design a producer-consumer solution using wait/notify or BlockingQueue for thread-safe data exchange.",
+    "hints": ["Shared buffer", "BlockingQueue simplifies implementation"],
+    "tags": ["producer-consumer", "blocking-queue", "design-pattern"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-004",
+    "title": "Explain ReentrantLock vs synchronized",
+    "description": "Compare ReentrantLock with synchronized keyword in terms of features, flexibility, and use cases.",
+    "hints": ["Explicit lock/unlock", "Trylock and timeout", "Fairness policy"],
+    "tags": ["reentrantlock", "synchronized", "locks"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-005",
+    "title": "What is ThreadLocal and when to use it?",
+    "description": "Explain ThreadLocal variables, their use cases, and potential memory leak issues.",
+    "hints": ["Thread-confined state", "Memory leaks in thread pools"],
+    "tags": ["threadlocal", "thread-confinement", "memory"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-006",
+    "title": "Implement a thread pool using ExecutorService",
+    "description": "Create a thread pool using ExecutorService to manage concurrent task execution efficiently.",
+    "hints": ["Executors factory methods", "Fixed vs cached thread pool"],
+    "tags": ["executor-service", "thread-pool", "concurrency"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-007",
+    "title": "Explain CountDownLatch and CyclicBarrier",
+    "description": "Compare CountDownLatch and CyclicBarrier synchronization aids, including their use cases and differences.",
+    "hints": ["One-time vs reusable", "Countdown vs barrier"],
+    "tags": ["countdownlatch", "cyclicbarrier", "synchronizers"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-008",
+    "title": "What is the Fork/Join framework?",
+    "description": "Explain the Fork/Join framework for parallel task decomposition and work-stealing algorithm.",
+    "hints": ["Divide and conquer", "Work stealing", "RecursiveTask"],
+    "tags": ["fork-join", "parallel", "work-stealing"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-009",
+    "title": "Implement a thread-safe counter",
+    "description": "Create a thread-safe counter using different approaches: synchronized, AtomicInteger, and locks.",
+    "hints": ["Compare performance", "Atomic operations"],
+    "tags": ["atomic", "thread-safety", "counter"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "medium",
+    "id": "mt-m-010",
+    "title": "Explain Semaphore and its use cases",
+    "description": "Describe how Semaphore works for controlling access to resources and implementing resource pools.",
+    "hints": ["Permits", "Acquire and release", "Resource limiting"],
+    "tags": ["semaphore", "resource-control", "synchronizers"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-001",
+    "title": "Implement a custom ReadWriteLock",
+    "description": "Design and implement a ReadWriteLock that allows multiple readers or a single writer with proper fairness.",
+    "hints": ["Reader count", "Writer exclusivity", "Fairness policy"],
+    "tags": ["readwritelock", "custom-lock", "concurrency"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-002",
+    "title": "Explain the Java Memory Model and happens-before",
+    "description": "Describe the Java Memory Model, happens-before relationships, and how they guarantee memory visibility.",
+    "hints": ["Memory barriers", "Synchronization actions", "Visibility guarantees"],
+    "tags": ["memory-model", "happens-before", "visibility"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-003",
+    "title": "Implement a lock-free data structure",
+    "description": "Create a lock-free stack or queue using compare-and-swap (CAS) operations and atomic references.",
+    "hints": ["AtomicReference", "CAS loop", "ABA problem"],
+    "tags": ["lock-free", "cas", "atomic"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-004",
+    "title": "Design a custom thread pool with work stealing",
+    "description": "Implement a thread pool with work-stealing algorithm for load balancing across worker threads.",
+    "hints": ["Deque per thread", "Steal from others when idle"],
+    "tags": ["thread-pool", "work-stealing", "load-balancing"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-005",
+    "title": "Implement a concurrent LRU cache",
+    "description": "Design a thread-safe LRU cache with O(1) operations using fine-grained locking or lock-free techniques.",
+    "hints": ["Segment locking", "ConcurrentHashMap", "Lock striping"],
+    "tags": ["lru-cache", "concurrent", "fine-grained-locking"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-006",
+    "title": "Explain StampedLock and optimistic locking",
+    "description": "Describe StampedLock's optimistic read mode and when it provides better performance than ReadWriteLock.",
+    "hints": ["Optimistic read", "Stamp validation", "No blocking reads"],
+    "tags": ["stampedlock", "optimistic-locking", "performance"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-007",
+    "title": "Implement a Phaser for multi-phase synchronization",
+    "description": "Use Phaser to coordinate multiple phases of parallel computation with dynamic thread registration.",
+    "hints": ["Phase advancement", "Dynamic parties", "Termination"],
+    "tags": ["phaser", "multi-phase", "synchronizers"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-008",
+    "title": "Design a rate limiter with thread safety",
+    "description": "Implement a thread-safe rate limiter using token bucket or sliding window algorithm.",
+    "hints": ["Token bucket", "Atomic operations", "Time-based refill"],
+    "tags": ["rate-limiter", "token-bucket", "concurrency"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-009",
+    "title": "Explain false sharing and cache line padding",
+    "description": "Describe false sharing problem in concurrent programs and how to prevent it using cache line padding.",
+    "hints": ["CPU cache lines", "@Contended annotation", "Padding fields"],
+    "tags": ["false-sharing", "cache-lines", "performance"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Multithreading",
+    "difficulty": "hard",
+    "id": "mt-h-010",
+    "title": "Implement a concurrent skip list",
+    "description": "Design a lock-free or fine-grained locking skip list for concurrent sorted data structure operations.",
+    "hints": ["Multiple levels", "CAS for updates", "Lock-free traversal"],
+    "tags": ["skip-list", "concurrent", "lock-free"],
+    "expectedTimeMinutes": 40
+  }
+]

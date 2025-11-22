@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-001",
+    "title": "What is Spring Boot and how does it differ from Spring Framework?",
+    "description": "Explain the purpose of Spring Boot, its key features, and how it simplifies Spring application development compared to traditional Spring Framework.",
+    "hints": ["Auto-configuration", "Embedded servers", "Opinionated defaults"],
+    "tags": ["fundamentals", "spring-boot", "spring-framework"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-002",
+    "title": "Explain the @SpringBootApplication annotation",
+    "description": "Describe what the @SpringBootApplication annotation does and which annotations it combines.",
+    "hints": ["Component scanning", "Auto-configuration", "Configuration class"],
+    "tags": ["annotations", "configuration", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-003",
+    "title": "What is dependency injection in Spring?",
+    "description": "Explain the concept of dependency injection and how Spring implements it using @Autowired, constructor injection, and setter injection.",
+    "hints": ["IoC container", "Constructor vs field injection", "Best practices"],
+    "tags": ["dependency-injection", "ioc", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-004",
+    "title": "Difference between @Component, @Service, and @Repository",
+    "description": "Explain the purpose and differences between @Component, @Service, @Repository, and @Controller stereotype annotations.",
+    "hints": ["Semantic meaning", "Exception translation", "Layered architecture"],
+    "tags": ["annotations", "stereotypes", "architecture"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-005",
+    "title": "What is application.properties and application.yml?",
+    "description": "Describe how to configure Spring Boot applications using application.properties or application.yml files.",
+    "hints": ["Configuration files", "Property sources", "Profile-specific configs"],
+    "tags": ["configuration", "properties", "fundamentals"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-006",
+    "title": "Explain Spring Boot Actuator",
+    "description": "Describe what Spring Boot Actuator provides and list common actuator endpoints for monitoring and management.",
+    "hints": ["Health checks", "Metrics", "Management endpoints"],
+    "tags": ["actuator", "monitoring", "production"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-007",
+    "title": "What are Spring profiles?",
+    "description": "Explain how Spring profiles work and how to use them for environment-specific configuration (dev, test, prod).",
+    "hints": ["@Profile annotation", "spring.profiles.active", "Environment-specific beans"],
+    "tags": ["profiles", "configuration", "environments"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-008",
+    "title": "How to create a simple REST API in Spring Boot?",
+    "description": "Describe the steps and annotations needed to create a basic REST controller with GET and POST endpoints.",
+    "hints": ["@RestController", "@RequestMapping", "@GetMapping/@PostMapping"],
+    "tags": ["rest-api", "controllers", "web"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-009",
+    "title": "What is the difference between @RequestParam and @PathVariable?",
+    "description": "Explain when to use @RequestParam versus @PathVariable for extracting data from HTTP requests.",
+    "hints": ["Query parameters", "URL path segments", "REST conventions"],
+    "tags": ["rest-api", "annotations", "web"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "easy",
+    "id": "sb-e-010",
+    "title": "Explain the @Bean annotation",
+    "description": "Describe how the @Bean annotation works in @Configuration classes to define Spring-managed beans.",
+    "hints": ["Configuration classes", "Bean lifecycle", "Method-level annotation"],
+    "tags": ["annotations", "configuration", "beans"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-001",
+    "title": "Implement exception handling in Spring Boot REST API",
+    "description": "Create a global exception handler using @ControllerAdvice and @ExceptionHandler to return proper HTTP status codes and error responses.",
+    "hints": ["@ControllerAdvice", "@ExceptionHandler", "ResponseEntity"],
+    "tags": ["exception-handling", "rest-api", "error-handling"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-002",
+    "title": "Explain Spring Data JPA and repository pattern",
+    "description": "Describe how Spring Data JPA simplifies database access and implement a repository with custom query methods.",
+    "hints": ["JpaRepository", "Query methods", "JPQL"],
+    "tags": ["spring-data", "jpa", "database"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-003",
+    "title": "Implement request validation using Bean Validation",
+    "description": "Use @Valid and validation annotations (@NotNull, @Size, @Email) to validate request bodies in REST controllers.",
+    "hints": ["@Valid annotation", "ConstraintViolation", "Validation groups"],
+    "tags": ["validation", "rest-api", "bean-validation"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-004",
+    "title": "What is Spring Boot auto-configuration and how does it work?",
+    "description": "Explain the auto-configuration mechanism in Spring Boot, including conditional annotations and how to create custom auto-configuration.",
+    "hints": ["@Conditional annotations", "spring.factories", "Auto-configuration classes"],
+    "tags": ["auto-configuration", "spring-boot", "advanced"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-005",
+    "title": "Implement pagination and sorting in Spring Data",
+    "description": "Create REST endpoints that support pagination and sorting using Pageable and Sort parameters.",
+    "hints": ["Pageable interface", "PageRequest", "@PageableDefault"],
+    "tags": ["spring-data", "pagination", "rest-api"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-006",
+    "title": "Explain Spring transaction management",
+    "description": "Describe how @Transactional works, transaction propagation levels, and isolation levels in Spring.",
+    "hints": ["@Transactional", "Propagation", "Isolation levels"],
+    "tags": ["transactions", "database", "spring-data"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-007",
+    "title": "Implement caching in Spring Boot",
+    "description": "Configure and use Spring's caching abstraction with @Cacheable, @CacheEvict, and @CachePut annotations.",
+    "hints": ["@EnableCaching", "Cache providers", "Cache eviction"],
+    "tags": ["caching", "performance", "spring-cache"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-008",
+    "title": "Create a custom Spring Boot starter",
+    "description": "Design and implement a custom Spring Boot starter with auto-configuration for a reusable library.",
+    "hints": ["spring.factories", "Auto-configuration", "Conditional beans"],
+    "tags": ["starters", "auto-configuration", "libraries"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-009",
+    "title": "Implement API versioning strategies",
+    "description": "Describe and implement different REST API versioning approaches (URI, header, content negotiation) in Spring Boot.",
+    "hints": ["URL versioning", "Header versioning", "Content negotiation"],
+    "tags": ["rest-api", "versioning", "design"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "medium",
+    "id": "sb-m-010",
+    "title": "Configure and use Spring Security basics",
+    "description": "Set up basic authentication and authorization in a Spring Boot application using Spring Security.",
+    "hints": ["SecurityFilterChain", "UserDetailsService", "Password encoding"],
+    "tags": ["security", "authentication", "authorization"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-001",
+    "title": "Implement JWT authentication with Spring Security",
+    "description": "Create a complete JWT-based authentication system with token generation, validation, and refresh token mechanism.",
+    "hints": ["JWT tokens", "Filter chain", "Token validation"],
+    "tags": ["security", "jwt", "authentication"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-002",
+    "title": "Design a multi-tenancy architecture in Spring Boot",
+    "description": "Implement a multi-tenant application with separate database schemas or databases per tenant using Spring Boot.",
+    "hints": ["Tenant identification", "Dynamic datasource routing", "Schema separation"],
+    "tags": ["multi-tenancy", "architecture", "database"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-003",
+    "title": "Implement event-driven architecture with Spring Events",
+    "description": "Design an event-driven system using Spring's ApplicationEvent, @EventListener, and asynchronous event processing.",
+    "hints": ["ApplicationEvent", "@EventListener", "@Async"],
+    "tags": ["events", "async", "architecture"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-004",
+    "title": "Create a custom Spring AOP aspect for cross-cutting concerns",
+    "description": "Implement aspect-oriented programming with custom aspects for logging, auditing, or performance monitoring.",
+    "hints": ["@Aspect", "Pointcut expressions", "Around advice"],
+    "tags": ["aop", "aspects", "cross-cutting"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-005",
+    "title": "Implement distributed tracing with Spring Cloud Sleuth",
+    "description": "Set up distributed tracing across microservices using Spring Cloud Sleuth and Zipkin for request correlation.",
+    "hints": ["Trace IDs", "Span IDs", "Zipkin integration"],
+    "tags": ["distributed-tracing", "microservices", "observability"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-006",
+    "title": "Design a reactive REST API with Spring WebFlux",
+    "description": "Create a non-blocking reactive REST API using Spring WebFlux, Mono, Flux, and reactive database drivers.",
+    "hints": ["WebFlux", "Mono and Flux", "Reactive streams"],
+    "tags": ["reactive", "webflux", "non-blocking"],
+    "expectedTimeMinutes": 35
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-007",
+    "title": "Implement circuit breaker pattern with Resilience4j",
+    "description": "Add fault tolerance to microservices using Resilience4j circuit breaker, retry, and rate limiter patterns.",
+    "hints": ["Circuit breaker", "Fallback methods", "Resilience4j"],
+    "tags": ["resilience", "fault-tolerance", "microservices"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-008",
+    "title": "Create a custom Spring Boot metrics and monitoring solution",
+    "description": "Implement custom metrics using Micrometer, integrate with Prometheus, and create Grafana dashboards.",
+    "hints": ["Micrometer", "Custom metrics", "Prometheus"],
+    "tags": ["metrics", "monitoring", "observability"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-009",
+    "title": "Implement optimistic and pessimistic locking strategies",
+    "description": "Design and implement both optimistic locking (@Version) and pessimistic locking strategies for concurrent data access.",
+    "hints": ["@Version annotation", "LockModeType", "Concurrent updates"],
+    "tags": ["concurrency", "locking", "jpa"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "hard",
+    "id": "sb-h-010",
+    "title": "Design a CQRS pattern implementation with Spring Boot",
+    "description": "Implement Command Query Responsibility Segregation pattern with separate read and write models using Spring Boot.",
+    "hints": ["Command handlers", "Query handlers", "Event sourcing"],
+    "tags": ["cqrs", "architecture", "design-patterns"],
+    "expectedTimeMinutes": 35
+  }
+]

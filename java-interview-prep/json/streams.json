@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-001",
+    "title": "Filter and collect elements from a list",
+    "description": "Given a list of integers, filter out even numbers and collect them into a new list using Stream API.",
+    "hints": ["Use filter() with lambda", "Collect with Collectors.toList()"],
+    "tags": ["filter", "collect", "lambda"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-002",
+    "title": "Map strings to uppercase",
+    "description": "Convert a list of strings to uppercase using the map() operation.",
+    "hints": ["Use map() with method reference", "String::toUpperCase"],
+    "tags": ["map", "method-reference", "transformation"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-003",
+    "title": "Find the sum of integers using reduce",
+    "description": "Calculate the sum of all integers in a list using the reduce() operation.",
+    "hints": ["Use reduce with identity and accumulator", "Integer::sum method reference"],
+    "tags": ["reduce", "aggregation", "sum"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-004",
+    "title": "Check if any element matches a condition",
+    "description": "Use anyMatch() to check if a list contains any element satisfying a given predicate.",
+    "hints": ["anyMatch() returns boolean", "Short-circuits on first match"],
+    "tags": ["anyMatch", "predicate", "short-circuit"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-005",
+    "title": "Sort a list of strings",
+    "description": "Sort a list of strings in natural order using Stream API and collect the result.",
+    "hints": ["Use sorted() intermediate operation", "Collect to list"],
+    "tags": ["sorted", "ordering", "collect"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-006",
+    "title": "Find distinct elements",
+    "description": "Remove duplicate elements from a list using the distinct() operation.",
+    "hints": ["distinct() uses equals() and hashCode()", "Maintains encounter order"],
+    "tags": ["distinct", "deduplication", "set"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-007",
+    "title": "Limit and skip elements",
+    "description": "Use limit() and skip() to implement pagination on a stream of elements.",
+    "hints": ["skip(n) skips first n elements", "limit(n) takes first n elements"],
+    "tags": ["limit", "skip", "pagination"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-008",
+    "title": "Count elements in a stream",
+    "description": "Count the number of elements in a stream that match a specific condition.",
+    "hints": ["Filter first, then count()", "count() is a terminal operation"],
+    "tags": ["count", "filter", "terminal-operation"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-009",
+    "title": "Find first element matching condition",
+    "description": "Use findFirst() to retrieve the first element that matches a predicate.",
+    "hints": ["Returns Optional<T>", "Short-circuits on first match"],
+    "tags": ["findFirst", "optional", "short-circuit"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "easy",
+    "id": "str-e-010",
+    "title": "Convert stream to array",
+    "description": "Collect stream elements into an array using toArray() method.",
+    "hints": ["toArray() for Object[]", "toArray(T[]::new) for typed array"],
+    "tags": ["toArray", "collection", "array"],
+    "expectedTimeMinutes": 5
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-001",
+    "title": "Group elements by property",
+    "description": "Use Collectors.groupingBy() to group a list of objects by a specific property.",
+    "hints": ["groupingBy returns Map<K, List<V>>", "Can use method reference as classifier"],
+    "tags": ["groupingBy", "collectors", "map"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-002",
+    "title": "Partition elements by predicate",
+    "description": "Use Collectors.partitioningBy() to split a collection into two groups based on a predicate.",
+    "hints": ["Returns Map<Boolean, List<T>>", "True and false keys"],
+    "tags": ["partitioningBy", "collectors", "predicate"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-003",
+    "title": "FlatMap nested collections",
+    "description": "Flatten a list of lists into a single stream using flatMap() operation.",
+    "hints": ["flatMap transforms each element to a stream", "Flattens nested structures"],
+    "tags": ["flatMap", "nested-collections", "flattening"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-004",
+    "title": "Find max and min with custom comparator",
+    "description": "Use max() and min() operations with a custom Comparator to find extreme values.",
+    "hints": ["Returns Optional<T>", "Comparator.comparing() for property-based comparison"],
+    "tags": ["max", "min", "comparator"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-005",
+    "title": "Collect to Map with key and value mappers",
+    "description": "Use Collectors.toMap() to create a map from a stream with custom key and value extractors.",
+    "hints": ["Handle duplicate keys with merge function", "toMap(keyMapper, valueMapper, mergeFunction)"],
+    "tags": ["toMap", "collectors", "key-value"],
+    "expectedTimeMinutes": 15
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-006",
+    "title": "Joining strings with delimiter",
+    "description": "Use Collectors.joining() to concatenate strings with a delimiter, prefix, and suffix.",
+    "hints": ["joining(delimiter, prefix, suffix)", "Works with CharSequence"],
+    "tags": ["joining", "string-concatenation", "collectors"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-007",
+    "title": "Calculate average using collectors",
+    "description": "Compute the average of numeric values using Collectors.averagingInt/Double/Long().",
+    "hints": ["Returns double value", "Can map to numeric type first"],
+    "tags": ["averaging", "statistics", "collectors"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-008",
+    "title": "Peek for debugging streams",
+    "description": "Use peek() to perform side-effect operations for debugging without affecting the stream.",
+    "hints": ["peek() is intermediate operation", "Useful for logging"],
+    "tags": ["peek", "debugging", "side-effects"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-009",
+    "title": "Implement custom collector",
+    "description": "Create a custom Collector implementation using Collector.of() for specialized aggregation.",
+    "hints": ["Define supplier, accumulator, combiner, finisher", "Use Collector.of() factory method"],
+    "tags": ["custom-collector", "collector-of", "advanced"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "medium",
+    "id": "str-m-010",
+    "title": "Summarizing statistics",
+    "description": "Use Collectors.summarizingInt/Double/Long() to get count, sum, min, max, and average in one pass.",
+    "hints": ["Returns IntSummaryStatistics or similar", "Single pass for multiple statistics"],
+    "tags": ["statistics", "summarizing", "collectors"],
+    "expectedTimeMinutes": 10
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-001",
+    "title": "Parallel stream processing with thread safety",
+    "description": "Implement parallel stream processing ensuring thread-safe operations and proper use of concurrent collectors.",
+    "hints": ["Use parallel() or parallelStream()", "Avoid stateful operations", "Use concurrent collectors"],
+    "tags": ["parallel-streams", "concurrency", "thread-safety"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-002",
+    "title": "Downstream collectors with groupingBy",
+    "description": "Use nested collectors with groupingBy() to perform complex aggregations on grouped data.",
+    "hints": ["groupingBy(classifier, downstream)", "Chain multiple collectors"],
+    "tags": ["groupingBy", "downstream-collectors", "nested"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-003",
+    "title": "Implement lazy evaluation with Stream.generate",
+    "description": "Create infinite streams using Stream.generate() or Stream.iterate() with proper termination conditions.",
+    "hints": ["Use limit() to terminate", "Lazy evaluation until terminal operation"],
+    "tags": ["infinite-streams", "lazy-evaluation", "generate"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-004",
+    "title": "Optimize stream pipeline performance",
+    "description": "Analyze and optimize a complex stream pipeline for performance, considering short-circuiting and operation order.",
+    "hints": ["Filter early", "Use short-circuit operations", "Avoid unnecessary boxing"],
+    "tags": ["optimization", "performance", "pipeline"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-005",
+    "title": "Implement teeing collector",
+    "description": "Use Collectors.teeing() to apply two collectors simultaneously and merge their results.",
+    "hints": ["Available in Java 12+", "Combines two downstream collectors"],
+    "tags": ["teeing", "collectors", "java12"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-006",
+    "title": "Handle exceptions in stream operations",
+    "description": "Design a strategy to handle checked exceptions within stream lambda expressions elegantly.",
+    "hints": ["Wrap in unchecked exception", "Use Try monad pattern", "Extract to method"],
+    "tags": ["exception-handling", "lambda", "functional"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-007",
+    "title": "Implement custom spliterator",
+    "description": "Create a custom Spliterator for efficient parallel processing of a custom data structure.",
+    "hints": ["Implement Spliterator interface", "Define splitting strategy", "Set characteristics"],
+    "tags": ["spliterator", "parallel", "custom"],
+    "expectedTimeMinutes": 30
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-008",
+    "title": "Reduce with complex accumulator",
+    "description": "Implement a complex reduction operation using reduce() with identity, accumulator, and combiner for parallel streams.",
+    "hints": ["Three-argument reduce for parallel", "Combiner merges partial results"],
+    "tags": ["reduce", "parallel", "combiner"],
+    "expectedTimeMinutes": 25
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-009",
+    "title": "Stream of optionals handling",
+    "description": "Process a stream of Optional values efficiently, filtering empty values and extracting present values.",
+    "hints": ["Use flatMap with Optional::stream (Java 9+)", "Filter with Optional::isPresent and map"],
+    "tags": ["optional", "flatMap", "filtering"],
+    "expectedTimeMinutes": 20
+  },
+  {
+    "category": "Java 8 Streams",
+    "difficulty": "hard",
+    "id": "str-h-010",
+    "title": "Implement sliding window with streams",
+    "description": "Create a sliding window operation over a stream to process consecutive elements in groups.",
+    "hints": ["Use custom collector or external iteration", "Maintain window state"],
+    "tags": ["sliding-window", "stateful", "custom-collector"],
+    "expectedTimeMinutes": 30
+  }
+]
