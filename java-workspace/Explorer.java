@@ -6,10 +6,12 @@ import core.ParallelStreams;
 import core.StreamOperations;
 import oops.BuilderPattern;
 import oops.InheritanceDemo;
+import threads.JoinExps;
+import threads.ThreadDemo;
 
 public class Explorer {
     public static void main(String[] args) {
-        executeHasHashVsTreeSetDemo();
+        // executeHasHashVsTreeSetDemo();
         IteratorUsage iteratorDemo = new IteratorUsage();
         // iteratorDemo.initialize();
 
@@ -26,7 +28,12 @@ public class Explorer {
         BuilderPattern builderPatternDemo = new BuilderPattern();
         // builderPatternDemo.initialize();
 
-        InheritanceDemo.main();
+        // InheritanceDemo.main();
+
+        ThreadDemo threadDemo = new ThreadDemo();
+        // threadDemo.initializeDemo();
+
+        JoinExps.main(new String[]{});
     }
 
     private static void executeHasHashVsTreeSetDemo() {
