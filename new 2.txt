@@ -1,0 +1,13 @@
+Explain the following:
+Transaction Management
+AOP
+WAR and external severs
+Classpath dependencies
+Entity Manager
+@Component vs @Service vs @Repository, Spring Bean Lifecycle 
+How Spring Boot Auto-Configuration Works Internally
+Spring Bean Lifecycle in detail
+How Embedded Tomcat starts inside Boot
+What are Servlet's?
+How to serialize a object?
+Explain Optional, Records, HttpClient, sealed classes with examples.
